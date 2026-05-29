@@ -6,11 +6,26 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
 </head>
 <body>
-<img id="carrusel" src="img/1.png" width="250">
+<header>
+    <nav class="navbar bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Carrusel de imagenes</a>
+        </div>
+    </nav>
+</header>
+<br>
+<img border="1" id="carrusel" src="img/1.png" width="250">
 <button type="button" id="anterior">Anterior</button>
 <button type="button" id="siguiente">Siguiente</button>
+
+<footer class="fixed-bottom py-3 bg-dark text-light">
+    <div class="container text-center">
+        <p>Página realizada por el 3D - Todos los derechos reservados</p>
+    </div>
+</footer>
 <script src="js/carrusel.js"></script>
 </body>
 </html>
